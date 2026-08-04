@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Pamac</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../Pamac/Pamac.csproj" />
+    <ProjectReference Include="../../bindings/LibAlpm/LibAlpm.csproj" />
+  </ItemGroup>
+</Project>

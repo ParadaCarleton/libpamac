@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <AssemblyName>outdated-checker</AssemblyName>
+    <RootNamespace>Pamac</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../../bindings/LibAlpm/LibAlpm.csproj" />
+    <ProjectReference Include="../Pamac.Shared/Pamac.Shared.csproj" />
+  </ItemGroup>
+</Project>
