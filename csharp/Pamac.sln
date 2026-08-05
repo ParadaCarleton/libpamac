@@ -1,0 +1,42 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pamac", "Pamac/Pamac.csproj", "{A3D7E9A2-9E52-4E94-9D91-7C1D0C5DF3AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pamac.CheckUpdates", "Pamac.CheckUpdates/Pamac.CheckUpdates.csproj", "{B6B0E201-85A6-46E5-A076-8AB4A7E4F0A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pamac.DependencyChecker", "Pamac.DependencyChecker/Pamac.DependencyChecker.csproj", "{C7B1B91A-0D2B-4B9C-AB2C-3B2CF1CFB2E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pamac.OutdatedChecker", "Pamac.OutdatedChecker/Pamac.OutdatedChecker.csproj", "{D8E2C02B-1E3C-4C9D-BC3D-4C3DF2D0C3F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pamac.Daemon", "Pamac.Daemon/Pamac.Daemon.csproj", "{E9F3D13C-2F4D-4DAE-CD4E-5D4EF3E1D402}"
+EndProject
+Global
+  GlobalSection(SolutionConfigurationPlatforms) = preSolution
+    Debug|Any CPU = Debug|Any CPU
+    Release|Any CPU = Release|Any CPU
+  EndGlobalSection
+  GlobalSection(ProjectConfigurationPlatforms) = postSolution
+    {A3D7E9A2-9E52-4E94-9D91-7C1D0C5DF3AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+    {A3D7E9A2-9E52-4E94-9D91-7C1D0C5DF3AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+    {A3D7E9A2-9E52-4E94-9D91-7C1D0C5DF3AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+    {A3D7E9A2-9E52-4E94-9D91-7C1D0C5DF3AB}.Release|Any CPU.Build.0 = Release|Any CPU
+    {B6B0E201-85A6-46E5-A076-8AB4A7E4F0A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+    {B6B0E201-85A6-46E5-A076-8AB4A7E4F0A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+    {B6B0E201-85A6-46E5-A076-8AB4A7E4F0A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+    {B6B0E201-85A6-46E5-A076-8AB4A7E4F0A1}.Release|Any CPU.Build.0 = Release|Any CPU
+    {C7B1B91A-0D2B-4B9C-AB2C-3B2CF1CFB2E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+    {C7B1B91A-0D2B-4B9C-AB2C-3B2CF1CFB2E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+    {C7B1B91A-0D2B-4B9C-AB2C-3B2CF1CFB2E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+    {C7B1B91A-0D2B-4B9C-AB2C-3B2CF1CFB2E0}.Release|Any CPU.Build.0 = Release|Any CPU
+    {D8E2C02B-1E3C-4C9D-BC3D-4C3DF2D0C3F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+    {D8E2C02B-1E3C-4C9D-BC3D-4C3DF2D0C3F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+    {D8E2C02B-1E3C-4C9D-BC3D-4C3DF2D0C3F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+    {D8E2C02B-1E3C-4C9D-BC3D-4C3DF2D0C3F1}.Release|Any CPU.Build.0 = Release|Any CPU
+    {E9F3D13C-2F4D-4DAE-CD4E-5D4EF3E1D402}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+    {E9F3D13C-2F4D-4DAE-CD4E-5D4EF3E1D402}.Debug|Any CPU.Build.0 = Debug|Any CPU
+    {E9F3D13C-2F4D-4DAE-CD4E-5D4EF3E1D402}.Release|Any CPU.ActiveCfg = Release|Any CPU
+    {E9F3D13C-2F4D-4DAE-CD4E-5D4EF3E1D402}.Release|Any CPU.Build.0 = Release|Any CPU
+  EndGlobalSection
+EndGlobal

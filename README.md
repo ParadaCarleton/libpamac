@@ -1,6 +1,12 @@
 
 Library for Pamac package manager based on libalpm
 
+A managed C#/.NET port is available under [`csharp/`](csharp/). It targets
+.NET 8, preserves the package/configuration/database/transaction APIs, and
+uses pacman/AppStream/AUR/Snap/Flatpak managed adapters instead of native
+GObject bindings. See [`csharp/README.md`](csharp/README.md) for build and
+backend details.
+
 #### Features
 
  - Optional AUR support
