@@ -1,0 +1,8 @@
+<Project>
+  <PropertyGroup>
+    <RepositoryUrl>https://github.com/ParadaCarleton/libpamac</RepositoryUrl>
+    <Company>Manjaro</Company>
+    <Product>libpamac</Product>
+    <Version>11.7.4</Version>
+  </PropertyGroup>
+</Project>
