@@ -1,3 +1,5 @@
 builddir
 resources/*~
 *.swp
+csharp/**/bin/
+csharp/**/obj/
