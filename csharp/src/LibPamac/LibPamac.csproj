@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <RootNamespace>Pamac</RootNamespace>
+    <AssemblyName>LibPamac</AssemblyName>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Version>11.7.4</Version>
+    <InvariantGlobalization>false</InvariantGlobalization>
+    <!-- libalpm is a native unmanaged library; keep P/Invoke calls unmanaged. -->
+  </PropertyGroup>
+
+</Project>
